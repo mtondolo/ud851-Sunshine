@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements
             /**
              * Sends the result of the load to the registered listener.
              *
-             * @param data The result of the load
+                * @param data The result of the load
              */
             public void deliverResult(String[] data) {
                 mWeatherData = data;
