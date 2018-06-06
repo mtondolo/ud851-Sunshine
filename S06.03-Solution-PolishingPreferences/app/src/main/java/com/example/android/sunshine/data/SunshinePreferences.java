@@ -92,8 +92,7 @@ public class SunshinePreferences {
      */
     public static String getPreferredWeatherLocation(Context context) {
         // COMPLETED (1) Return the user's preferred location
-        SharedPreferences prefs = PreferenceManager
-                .getDefaultSharedPreferences(context);
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         String keyForLocation = context.getString(R.string.pref_location_key);
         String defaultLocation = context.getString(R.string.pref_location_default);
         return prefs.getString(keyForLocation, defaultLocation);
