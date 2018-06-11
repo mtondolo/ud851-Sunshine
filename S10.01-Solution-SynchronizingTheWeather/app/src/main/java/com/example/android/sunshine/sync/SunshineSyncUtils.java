@@ -24,7 +24,7 @@ import android.support.annotation.NonNull;
 import com.example.android.sunshine.data.WeatherContract;
 
 // COMPLETED (9) Create a class called SunshineSyncUtils
-public class SunshineSyncUtils {
+public class    SunshineSyncUtils {
     //  COMPLETED (10) Create a public static void method called startImmediateSync
     /**
      * Helper method to perform a sync immediately using an IntentService for asynchronous

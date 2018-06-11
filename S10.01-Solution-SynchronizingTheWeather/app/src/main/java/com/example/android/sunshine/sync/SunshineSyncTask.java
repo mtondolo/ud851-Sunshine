@@ -80,7 +80,7 @@ public class SunshineSyncTask {
                         weatherValues);
             }
 
-            /* If the code reaches this point, we have successfully performed our sync */
+            /* If the code reaches this p   oint, we have successfully performed our sync */
 
         } catch (Exception e) {
             /* Server probably invalid */
